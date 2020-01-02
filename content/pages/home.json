@@ -7,8 +7,7 @@
     }
   ],
   "hero": {
-    "headline": "Welcome to Tina Grande.",
-    "textline": "This template is filled with sample content to get you started.",
+    "headline": "Built for You Contracting",
     "ctas": [
       {
         "label": "Read The Blog",
@@ -24,7 +23,8 @@
       }
     ],
     "image": "../images/cafe-2.jpg",
-    "large": true
+    "large": true,
+    "textline": "Built Right, Built for You!"
   },
   "displayTitle": false,
   "title": "Home"
