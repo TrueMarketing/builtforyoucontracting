@@ -10,7 +10,7 @@
     "headline": "Built for You Contracting",
     "ctas": [
       {
-        "label": "Read The Blog",
+        "label": "Services",
         "link": "/blog",
         "primary": true,
         "arrow": true
