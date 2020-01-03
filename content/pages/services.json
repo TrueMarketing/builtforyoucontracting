@@ -16,6 +16,8 @@
     }
   ],
   "hero": {
-    "image": "../images/new-house.jpg"
+    "image": "../images/new-house.jpg",
+    "large": false,
+    "headline": "Interior, Exterior, and Roofing Services"
   }
 }
