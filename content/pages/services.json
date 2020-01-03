@@ -14,5 +14,8 @@
       "center": false,
       "_template": "ContentBlock"
     }
-  ]
+  ],
+  "hero": {
+    "image": "../images/new-house.jpg"
+  }
 }
