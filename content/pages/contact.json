@@ -10,8 +10,8 @@
       "center": true
     },
     {
-      "content": "> Send us a message letting us know how we can contact you, the services you are interested in, and how we can help you. General inquiries are welcome!\n\n***",
-      "center": true,
+      "content": "You can get a hold of us during business hours by calling co-owner William Lee at **(226) 450-1671**. Please leave a message if nobody answers—we're probably in the middle of a job.\n\n> You can also send us a message letting us know how we can contact you, the services you are interested in, and how we can help you. General inquiries are welcome!\n\n***",
+      "center": false,
       "_template": "ContentBlock"
     },
     {
