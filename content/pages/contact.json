@@ -51,5 +51,10 @@
       "content": ""
     }
   ],
-  "displayTitle": true
+  "displayTitle": true,
+  "hero": {
+    "headline": "Inquiries & Estimates",
+    "textline": "Get in touch with Built for You Contracting",
+    "image": "../images/metal-roof.jpg"
+  }
 }
