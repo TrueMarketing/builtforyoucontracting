@@ -6,7 +6,13 @@
       "_template": "TitleBlock",
       "title": "",
       "underline": true,
-      "content": ""
+      "content": "",
+      "center": true
+    },
+    {
+      "content": "> Send us a message letting us know how we can contact you, the services you are interested in, and how we can help you. General inquiries are welcome!\n\n***",
+      "center": true,
+      "_template": "ContentBlock"
     },
     {
       "_template": "FormBlock",
@@ -19,10 +25,21 @@
           "_template": "nameInputBlock"
         },
         {
+          "label": "Phone",
+          "inputType": "text",
+          "autocomplete": "tel",
+          "_template": "phoneInputBlock"
+        },
+        {
           "label": "Email",
           "inputType": "text",
           "autocomplete": "email",
           "_template": "emailInputBlock"
+        },
+        {
+          "_template": "customInputBlock",
+          "label": "Service you are inquiring about (optional)",
+          "inputType": "text"
         },
         {
           "label": "Message",
