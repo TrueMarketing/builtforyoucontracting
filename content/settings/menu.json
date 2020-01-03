@@ -1,6 +1,10 @@
 {
   "menuItems": [
     {
+      "label": "☎️ Call Now",
+      "link": "tel:12264501671"
+    },
+    {
       "label": "Home",
       "link": "/"
     },
