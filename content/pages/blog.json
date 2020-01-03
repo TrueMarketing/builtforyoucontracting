@@ -1,10 +1,10 @@
 {
   "path": "/blog",
-  "title": "Blog",
+  "title": "Services",
   "pageType": "list",
   "listType": "post",
   "hero": {
-    "image": "../images/coffee-beans.jpg",
+    "image": "../images/reno-exterior.jpg",
     "large": true,
     "overlay": true
   }
