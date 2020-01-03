@@ -9,12 +9,15 @@
       "link": "/about"
     },
     {
-      "label": "Blog",
-      "link": "/blog"
+      "label": "Services",
+      "link": "/services"
     },
     {
       "label": "Contact",
       "link": "/contact"
     }
-  ]
+  ],
+  "__gatsby_resolved": {
+    "fileRelativePath": "/content/settings/menu.json"
+  }
 }
