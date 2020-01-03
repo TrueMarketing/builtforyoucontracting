@@ -11,7 +11,7 @@
     "ctas": [
       {
         "label": "Services",
-        "link": "/blog",
+        "link": "/services",
         "primary": true,
         "arrow": true
       },
