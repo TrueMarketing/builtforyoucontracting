@@ -1,10 +1,9 @@
 ---
-title: "Introducing Tina Grande \_\U0001F389"
+title: Exterior Services
 path: /blog/introducing-tina-grande
 date: '2019-11-06T00:00:00.000Z'
 type: post
-authors:
-  - scott-byrne
+authors: ['']
 draft: false
 hero:
   image: ../images/coffee-beans.jpg

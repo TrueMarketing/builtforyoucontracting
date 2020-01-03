@@ -3,10 +3,25 @@ const site = require("./content/settings/site.json")
 
 module.exports = {
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`, // this entry has to be the first or will not work as per FAQ
+          options: {
+        path: `${__dirname}/content/images`,
+            name: `images`
+           }
+         },
+        {
+          resolve: `gatsby-transformer-remark`,
+          options: {
+            plugins: [
+              `gatsby-remark-relative-images`,
+            ]
+          },
+        },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-tinacms-json`,
     `gatsby-transformer-json`,
+    `gatsby-tinacms-json`,
     {
       resolve: "gatsby-plugin-tinacms",
       options: {
@@ -24,13 +39,6 @@ module.exports = {
           },
         },
         plugins: ["gatsby-tinacms-git", "gatsby-tinacms-remark"],
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/static/images`,
-        name: `uploads`,
       },
     },
     {

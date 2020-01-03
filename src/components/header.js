@@ -1,11 +1,12 @@
 import React from "react"
 import { Wrapper } from "./style"
-import { Coffee } from "styled-icons/boxicons-regular"
+//import { Coffee } from "styled-icons/boxicons-regular"
 import styled, { css } from "styled-components"
 import { transparentize } from "polished"
 import { Nav } from "./nav"
 import { ThemeContext } from "./theme"
 import { Link } from "gatsby"
+import Logo from "../../content/images/icon.png"
 
 export const Header = styled(({ siteTitle, ...styleProps }) => {
   return (
@@ -15,7 +16,8 @@ export const Header = styled(({ siteTitle, ...styleProps }) => {
           <HeaderWrapper>
             <SiteTitle>
               <SiteLink to="/">
-                <Coffee />
+                {'<Coffee />' && false}
+                  <img src={Logo} height='36' width='36' />
                 {siteTitle}
               </SiteLink>
             </SiteTitle>
